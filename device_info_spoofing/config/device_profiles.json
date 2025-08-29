@@ -1,0 +1,819 @@
+{
+    "profiles": [
+        {
+            "name": "Windows 10 Profili",
+            "created_at": "2023-08-29 12:00:00",
+            "os": {
+                "system": "Windows",
+                "release": "10",
+                "version": "10.0.19042",
+                "platform": "Windows-10-10.0.19042",
+                "machine": "AMD64",
+                "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+            },
+            "network": {
+                "hostname": "DESKTOP-A7B3C9D",
+                "ip_address": "192.168.1.100",
+                "mac_address": "00:1a:2b:3c:4d:5e"
+            },
+            "hardware": {
+                "cpu_count": 8,
+                "cpu_freq": {
+                    "current": 2400,
+                    "min": 2400,
+                    "max": 4000
+                },
+                "total_memory": 17179869184
+            },
+            "user": {
+                "username": "User123"
+            }
+        },
+        {
+            "name": "MacOS Profili",
+            "created_at": "2023-08-29 12:00:00",
+            "os": {
+                "system": "Darwin",
+                "release": "20.6.0",
+                "version": "Darwin Kernel Version 20.6.0",
+                "platform": "macOS-11.6-x86_64-i386-64bit",
+                "machine": "x86_64",
+                "processor": "i386"
+            },
+            "network": {
+                "hostname": "MacBook-Pro-User",
+                "ip_address": "192.168.1.101",
+                "mac_address": "00:1a:2b:3c:4d:5f"
+            },
+            "hardware": {
+                "cpu_count": 8,
+                "cpu_freq": {
+                    "current": 2300,
+                    "min": 2300,
+                    "max": 3500
+                },
+                "total_memory": 17179869184
+            },
+            "user": {
+                "username": "macuser"
+            }
+        },
+        {
+            "name": "Linux Profili",
+            "created_at": "2023-08-29 12:00:00",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "ubuntu-desktop",
+                "ip_address": "192.168.1.102",
+                "mac_address": "00:1a:2b:3c:4d:60"
+            },
+            "hardware": {
+                "cpu_count": 4,
+                "cpu_freq": {
+                    "current": 2200,
+                    "min": 2200,
+                    "max": 3200
+                },
+                "total_memory": 8589934592
+            },
+            "user": {
+                "username": "ubuntu"
+            }
+        },
+        {
+            "name": "Rastgele Profil",
+            "created_at": "2025-08-29 20:22:54",
+            "os": {
+                "system": "Windows",
+                "release": "10",
+                "version": "10.0.19042",
+                "platform": "Windows-10-10.0.19042",
+                "machine": "AMD64",
+                "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+            },
+            "network": {
+                "hostname": "HOST-J9L5AJ",
+                "mac_address": "a5:01:06:8d:54:ca"
+            },
+            "hardware": {
+                "cpu_count": 4,
+                "cpu_freq": {
+                    "current": 2596,
+                    "min": 2296,
+                    "max": 2860
+                },
+                "total_memory": 68719476736
+            },
+            "user": {
+                "username": "User6LM"
+            }
+        },
+        {
+            "name": "Rastgele Profil (1)",
+            "created_at": "2025-08-29 20:22:57",
+            "os": {
+                "system": "Darwin",
+                "release": "20.6.0",
+                "version": "Darwin Kernel Version 20.6.0",
+                "platform": "macOS-11.6-x86_64-i386-64bit",
+                "machine": "x86_64",
+                "processor": "i386"
+            },
+            "network": {
+                "hostname": "HOST-61K0DG",
+                "mac_address": "04:eb:f1:c4:57:e7"
+            },
+            "hardware": {
+                "cpu_count": 6,
+                "cpu_freq": {
+                    "current": 2217,
+                    "min": 1989,
+                    "max": 4518
+                },
+                "total_memory": 4294967296
+            },
+            "user": {
+                "username": "userUEN"
+            }
+        },
+        {
+            "name": "Rastgele Profil (2)",
+            "created_at": "2025-08-29 20:23:02",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-7IZO96",
+                "mac_address": "3d:48:ee:25:f8:74"
+            },
+            "hardware": {
+                "cpu_count": 8,
+                "cpu_freq": {
+                    "current": 2109,
+                    "min": 1033,
+                    "max": 2219
+                },
+                "total_memory": 34359738368
+            },
+            "user": {
+                "username": "ubuntuQZ"
+            }
+        },
+        {
+            "name": "Rastgele Profil (3)",
+            "created_at": "2025-08-29 20:23:59",
+            "os": {
+                "system": "Windows",
+                "release": "10",
+                "version": "10.0.19042",
+                "platform": "Windows-10-10.0.19042",
+                "machine": "AMD64",
+                "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+            },
+            "network": {
+                "hostname": "HOST-6PSRQU",
+                "mac_address": "7a:53:cb:0f:9e:68"
+            },
+            "hardware": {
+                "cpu_count": 2,
+                "cpu_freq": {
+                    "current": 2778,
+                    "min": 1813,
+                    "max": 4051
+                },
+                "total_memory": 17179869184
+            },
+            "user": {
+                "username": "UserJGC"
+            }
+        },
+        {
+            "name": "Rastgele Profil (4)",
+            "created_at": "2025-08-29 20:24:03",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-4RG833",
+                "mac_address": "47:fe:e5:e4:14:15"
+            },
+            "hardware": {
+                "cpu_count": 16,
+                "cpu_freq": {
+                    "current": 2277,
+                    "min": 1606,
+                    "max": 2469
+                },
+                "total_memory": 8589934592
+            },
+            "user": {
+                "username": "ubuntuPL"
+            }
+        },
+        {
+            "name": "Rastgele Profil (5)",
+            "created_at": "2025-08-29 20:24:05",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-O2V41K",
+                "mac_address": "fb:ef:df:3a:15:9e"
+            },
+            "hardware": {
+                "cpu_count": 6,
+                "cpu_freq": {
+                    "current": 2757,
+                    "min": 2254,
+                    "max": 3163
+                },
+                "total_memory": 34359738368
+            },
+            "user": {
+                "username": "ubuntuEJ"
+            }
+        },
+        {
+            "name": "Rastgele Profil (6)",
+            "created_at": "2025-08-29 20:25:22",
+            "os": {
+                "system": "Darwin",
+                "release": "20.6.0",
+                "version": "Darwin Kernel Version 20.6.0",
+                "platform": "macOS-11.6-x86_64-i386-64bit",
+                "machine": "x86_64",
+                "processor": "i386"
+            },
+            "network": {
+                "hostname": "HOST-JOBE60",
+                "mac_address": "aa:b4:6a:5f:fc:46"
+            },
+            "hardware": {
+                "cpu_count": 12,
+                "cpu_freq": {
+                    "current": 4651,
+                    "min": 3005,
+                    "max": 4837
+                },
+                "total_memory": 17179869184
+            },
+            "user": {
+                "username": "user50F"
+            }
+        },
+        {
+            "name": "Rastgele Profil (7)",
+            "created_at": "2025-08-29 20:26:51",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-OFF4K2",
+                "mac_address": "09:ce:ff:8b:f9:ff"
+            },
+            "hardware": {
+                "cpu_count": 6,
+                "cpu_freq": {
+                    "current": 1645,
+                    "min": 1082,
+                    "max": 2492
+                },
+                "total_memory": 68719476736
+            },
+            "user": {
+                "username": "ubuntuVA"
+            }
+        },
+        {
+            "name": "Rastgele Profil (8)",
+            "created_at": "2025-08-29 20:27:51",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-N6DXHG",
+                "mac_address": "33:85:97:00:67:0f"
+            },
+            "hardware": {
+                "cpu_count": 2,
+                "cpu_freq": {
+                    "current": 3322,
+                    "min": 2773,
+                    "max": 4922
+                },
+                "total_memory": 17179869184
+            },
+            "user": {
+                "username": "ubuntuLW"
+            }
+        },
+        {
+            "name": "Rastgele Profil (9)",
+            "created_at": "2025-08-29 20:28:48",
+            "os": {
+                "system": "Windows",
+                "release": "10",
+                "version": "10.0.19042",
+                "platform": "Windows-10-10.0.19042",
+                "machine": "AMD64",
+                "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+            },
+            "network": {
+                "hostname": "HOST-AELBJ1",
+                "mac_address": "95:25:3f:c0:ea:7e"
+            },
+            "hardware": {
+                "cpu_count": 6,
+                "cpu_freq": {
+                    "current": 1020,
+                    "min": 1002,
+                    "max": 2291
+                },
+                "total_memory": 8589934592
+            },
+            "user": {
+                "username": "UserKB7"
+            }
+        },
+        {
+            "name": "Rastgele Profil (10)",
+            "created_at": "2025-08-29 20:29:01",
+            "os": {
+                "system": "Darwin",
+                "release": "20.6.0",
+                "version": "Darwin Kernel Version 20.6.0",
+                "platform": "macOS-11.6-x86_64-i386-64bit",
+                "machine": "x86_64",
+                "processor": "i386"
+            },
+            "network": {
+                "hostname": "HOST-96V2DV",
+                "mac_address": "37:bf:81:a7:db:63"
+            },
+            "hardware": {
+                "cpu_count": 12,
+                "cpu_freq": {
+                    "current": 3651,
+                    "min": 2418,
+                    "max": 4065
+                },
+                "total_memory": 34359738368
+            },
+            "user": {
+                "username": "userVLM"
+            }
+        },
+        {
+            "name": "Rastgele Profil (11)",
+            "created_at": "2025-08-29 20:29:03",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-WAEVCE",
+                "mac_address": "a0:02:81:2c:1e:6b"
+            },
+            "hardware": {
+                "cpu_count": 16,
+                "cpu_freq": {
+                    "current": 2574,
+                    "min": 2533,
+                    "max": 4121
+                },
+                "total_memory": 68719476736
+            },
+            "user": {
+                "username": "ubuntu3R"
+            }
+        },
+        {
+            "name": "Rastgele Profil (12)",
+            "created_at": "2025-08-29 20:29:05",
+            "os": {
+                "system": "Darwin",
+                "release": "20.6.0",
+                "version": "Darwin Kernel Version 20.6.0",
+                "platform": "macOS-11.6-x86_64-i386-64bit",
+                "machine": "x86_64",
+                "processor": "i386"
+            },
+            "network": {
+                "hostname": "HOST-JQ0I1V",
+                "mac_address": "92:79:80:ed:d8:4c"
+            },
+            "hardware": {
+                "cpu_count": 16,
+                "cpu_freq": {
+                    "current": 1886,
+                    "min": 1694,
+                    "max": 2266
+                },
+                "total_memory": 4294967296
+            },
+            "user": {
+                "username": "userF07"
+            }
+        },
+        {
+            "name": "Rastgele Profil (13)",
+            "created_at": "2025-08-29 20:41:41",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-UHDIVL",
+                "mac_address": "61:0d:59:9a:a3:7f"
+            },
+            "hardware": {
+                "cpu_count": 16,
+                "cpu_freq": {
+                    "current": 1731,
+                    "min": 1013,
+                    "max": 2333
+                },
+                "total_memory": 8589934592
+            },
+            "user": {
+                "username": "ubuntuVP"
+            }
+        },
+        {
+            "name": "Rastgele Profil (14)",
+            "created_at": "2025-08-29 20:42:30",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-FA61UZ",
+                "mac_address": "56:c1:c3:72:ef:6c"
+            },
+            "hardware": {
+                "cpu_count": 8,
+                "cpu_freq": {
+                    "current": 3904,
+                    "min": 2460,
+                    "max": 4130
+                },
+                "total_memory": 17179869184
+            },
+            "user": {
+                "username": "ubuntuBA"
+            }
+        },
+        {
+            "name": "Rastgele Profil (15)",
+            "created_at": "2025-08-29 20:42:34",
+            "os": {
+                "system": "Darwin",
+                "release": "20.6.0",
+                "version": "Darwin Kernel Version 20.6.0",
+                "platform": "macOS-11.6-x86_64-i386-64bit",
+                "machine": "x86_64",
+                "processor": "i386"
+            },
+            "network": {
+                "hostname": "HOST-ELSBHW",
+                "mac_address": "5c:c5:56:60:20:fb"
+            },
+            "hardware": {
+                "cpu_count": 12,
+                "cpu_freq": {
+                    "current": 3319,
+                    "min": 2708,
+                    "max": 3571
+                },
+                "total_memory": 8589934592
+            },
+            "user": {
+                "username": "userBE7"
+            }
+        },
+        {
+            "name": "Rastgele Profil (16)",
+            "created_at": "2025-08-29 20:46:21",
+            "os": {
+                "system": "Windows",
+                "release": "10",
+                "version": "10.0.19042",
+                "platform": "Windows-10-10.0.19042",
+                "machine": "AMD64",
+                "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+            },
+            "network": {
+                "hostname": "HOST-L498W1",
+                "mac_address": "20:20:22:72:99:f0"
+            },
+            "hardware": {
+                "cpu_count": 12,
+                "cpu_freq": {
+                    "current": 2287,
+                    "min": 1613,
+                    "max": 2741
+                },
+                "total_memory": 8589934592
+            },
+            "user": {
+                "username": "UserJQ0"
+            }
+        },
+        {
+            "name": "Rastgele Profil (17)",
+            "created_at": "2025-08-29 20:46:23",
+            "os": {
+                "system": "Windows",
+                "release": "10",
+                "version": "10.0.19042",
+                "platform": "Windows-10-10.0.19042",
+                "machine": "AMD64",
+                "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+            },
+            "network": {
+                "hostname": "HOST-2F3X5M",
+                "mac_address": "44:1d:f3:44:69:de"
+            },
+            "hardware": {
+                "cpu_count": 6,
+                "cpu_freq": {
+                    "current": 2199,
+                    "min": 1901,
+                    "max": 3484
+                },
+                "total_memory": 8589934592
+            },
+            "user": {
+                "username": "User8A3"
+            }
+        },
+        {
+            "name": "Rastgele Profil (18)",
+            "created_at": "2025-08-29 20:46:26",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-5JOZ0Z",
+                "mac_address": "f9:e4:a5:ab:a5:be"
+            },
+            "hardware": {
+                "cpu_count": 8,
+                "cpu_freq": {
+                    "current": 2310,
+                    "min": 1501,
+                    "max": 2848
+                },
+                "total_memory": 34359738368
+            },
+            "user": {
+                "username": "ubuntu0B"
+            }
+        },
+        {
+            "name": "Rastgele Profil (19)",
+            "created_at": "2025-08-29 20:48:23",
+            "os": {
+                "system": "Windows",
+                "release": "10",
+                "version": "10.0.19042",
+                "platform": "Windows-10-10.0.19042",
+                "machine": "AMD64",
+                "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+            },
+            "network": {
+                "hostname": "HOST-7VQ5SQ",
+                "mac_address": "09:55:f6:ae:89:0a"
+            },
+            "hardware": {
+                "cpu_count": 16,
+                "cpu_freq": {
+                    "current": 1982,
+                    "min": 1472,
+                    "max": 2144
+                },
+                "total_memory": 34359738368
+            },
+            "user": {
+                "username": "User3UL"
+            }
+        },
+        {
+            "name": "Rastgele Profil (20)",
+            "created_at": "2025-08-29 20:48:25",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-ZLR48X",
+                "mac_address": "f6:15:ba:ae:26:89"
+            },
+            "hardware": {
+                "cpu_count": 6,
+                "cpu_freq": {
+                    "current": 1622,
+                    "min": 1087,
+                    "max": 3486
+                },
+                "total_memory": 8589934592
+            },
+            "user": {
+                "username": "ubuntu14"
+            }
+        },
+        {
+            "name": "Rastgele Profil (21)",
+            "created_at": "2025-08-29 20:48:26",
+            "os": {
+                "system": "Windows",
+                "release": "10",
+                "version": "10.0.19042",
+                "platform": "Windows-10-10.0.19042",
+                "machine": "AMD64",
+                "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+            },
+            "network": {
+                "hostname": "HOST-WHJFGV",
+                "mac_address": "ea:f9:9c:9d:00:8c"
+            },
+            "hardware": {
+                "cpu_count": 16,
+                "cpu_freq": {
+                    "current": 2847,
+                    "min": 2757,
+                    "max": 4369
+                },
+                "total_memory": 17179869184
+            },
+            "user": {
+                "username": "User1Q0"
+            }
+        },
+        {
+            "name": "Rastgele Profil (22)",
+            "created_at": "2025-08-29 20:48:27",
+            "os": {
+                "system": "Windows",
+                "release": "10",
+                "version": "10.0.19042",
+                "platform": "Windows-10-10.0.19042",
+                "machine": "AMD64",
+                "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+            },
+            "network": {
+                "hostname": "HOST-AAFEGL",
+                "mac_address": "14:5f:c1:ab:ab:73"
+            },
+            "hardware": {
+                "cpu_count": 12,
+                "cpu_freq": {
+                    "current": 3873,
+                    "min": 2884,
+                    "max": 4165
+                },
+                "total_memory": 8589934592
+            },
+            "user": {
+                "username": "UserP1Y"
+            }
+        },
+        {
+            "name": "Rastgele Profil (23)",
+            "created_at": "2025-08-29 20:49:28",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-M5RJ3O",
+                "mac_address": "26:a1:75:80:ee:e1"
+            },
+            "hardware": {
+                "cpu_count": 12,
+                "cpu_freq": {
+                    "current": 3716,
+                    "min": 2920,
+                    "max": 4066
+                },
+                "total_memory": 17179869184
+            },
+            "user": {
+                "username": "ubuntuSO"
+            }
+        },
+        {
+            "name": "Rastgele Profil (24)",
+            "created_at": "2025-08-29 20:49:32",
+            "os": {
+                "system": "Darwin",
+                "release": "20.6.0",
+                "version": "Darwin Kernel Version 20.6.0",
+                "platform": "macOS-11.6-x86_64-i386-64bit",
+                "machine": "x86_64",
+                "processor": "i386"
+            },
+            "network": {
+                "hostname": "HOST-2SWN2G",
+                "mac_address": "a1:02:23:7d:14:3c"
+            },
+            "hardware": {
+                "cpu_count": 4,
+                "cpu_freq": {
+                    "current": 2038,
+                    "min": 1116,
+                    "max": 2220
+                },
+                "total_memory": 8589934592
+            },
+            "user": {
+                "username": "user32X"
+            }
+        },
+        {
+            "name": "Rastgele Profil (25)",
+            "created_at": "2025-08-29 20:53:30",
+            "os": {
+                "system": "Linux",
+                "release": "5.15.0-58-generic",
+                "version": "#64-Ubuntu SMP",
+                "platform": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+                "machine": "x86_64",
+                "processor": "x86_64"
+            },
+            "network": {
+                "hostname": "HOST-TVCX9F",
+                "mac_address": "82:69:9b:20:43:86"
+            },
+            "hardware": {
+                "cpu_count": 4,
+                "cpu_freq": {
+                    "current": 2781,
+                    "min": 1791,
+                    "max": 4176
+                },
+                "total_memory": 8589934592
+            },
+            "user": {
+                "username": "ubuntuWH"
+            }
+        }
+    ]
+}

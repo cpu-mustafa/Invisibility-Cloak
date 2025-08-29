@@ -1,0 +1,30 @@
+[2025-08-29 20:22:15] Uygulama başlatılırken hata oluştu: 'DeviceInfoController' object has no attribute 'refresh_timer'
+Traceback (most recent call last):
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\device_info_spoofing\main.py", line 37, in main
+    controller = DeviceInfoController(base_dir)
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\device_info_spoofing\modules\device_info_controller.py", line 53, in __init__
+    self._init_ui()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\device_info_spoofing\modules\device_info_controller.py", line 382, in _init_ui
+    self._on_refresh_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\device_info_spoofing\modules\device_info_controller.py", line 541, in _on_refresh_changed
+    self.refresh_timer.start(interval)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DeviceInfoController' object has no attribute 'refresh_timer'
+
+Traceback (most recent call last):
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\device_info_spoofing\main.py", line 37, in main
+    controller = DeviceInfoController(base_dir)
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\device_info_spoofing\modules\device_info_controller.py", line 53, in __init__
+    self._init_ui()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\device_info_spoofing\modules\device_info_controller.py", line 382, in _init_ui
+    self._on_refresh_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\device_info_spoofing\modules\device_info_controller.py", line 541, in _on_refresh_changed
+    self.refresh_timer.start(interval)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DeviceInfoController' object has no attribute 'refresh_timer'
+
+

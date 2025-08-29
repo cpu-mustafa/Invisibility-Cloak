@@ -1,0 +1,18 @@
+MAC Adresi Değiştirici - Yönetici Olarak Çalıştırma Talimatları
+
+MAC adresi değiştirmek için yönetici hakları gereklidir. Programı yönetici olarak çalıştırmak için aşağıdaki yöntemlerden birini kullanabilirsiniz:
+
+1. auto_admin.bat dosyasına çift tıklayın
+   - Bu, otomatik olarak yönetici haklarını alacak ve programı başlatacaktır.
+   - Windows Kullanıcı Hesabı Denetimi (UAC) izin isteyebilir, "Evet" seçeneğini tıklayın.
+
+2. auto_admin.ps1 dosyasını PowerShell ile çalıştırın
+   - Dosyaya sağ tıklayın ve "PowerShell ile çalıştır" seçeneğini seçin.
+   - Bu, otomatik olarak yönetici haklarını alacak ve programı başlatacaktır.
+   - Windows Kullanıcı Hesabı Denetimi (UAC) izin isteyebilir, "Evet" seçeneğini tıklayın.
+
+3. Manuel olarak yönetici haklarıyla çalıştırın
+   - main.py dosyasına sağ tıklayın.
+   - "Yönetici olarak çalıştır" seçeneğini seçin.
+
+Not: MAC adresi değişiklikleri için yönetici hakları gereklidir. Yönetici hakları olmadan program çalışacaktır, ancak MAC adreslerini değiştirme işlevi çalışmayacaktır.

@@ -1,0 +1,17 @@
+{
+    "privacy_level": "CUSTOM",
+    "auto_switch_ip": false,
+    "auto_switch_interval": 300,
+    "clear_cookies": false,
+    "block_scripts": false,
+    "block_webrtc": true,
+    "use_bridges": false,
+    "custom_settings": {
+        "entry_nodes": [],
+        "exit_nodes": [],
+        "excluded_nodes": [],
+        "strict_nodes": false,
+        "use_pluggable_transports": false,
+        "transport_type": "obfs4"
+    }
+}

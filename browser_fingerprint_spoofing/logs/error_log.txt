@@ -1,0 +1,6 @@
+2025-08-29 20:02:39,622 - ERROR - Uygulama baþlatýlýrken hata oluþtu: 'FingerprintController' object has no attribute 'randomize_fingerprint'
+2025-08-29 20:02:39,622 - ERROR - Uygulama baþlatýlýrken hata oluþtu: 'FingerprintController' object has no attribute 'randomize_fingerprint'
+2025-08-29 20:02:39,622 - ERROR - Uygulama baþlatýlýrken hata oluþtu: 'FingerprintController' object has no attribute 'randomize_fingerprint'
+2025-08-29 20:03:32,443 - ERROR - Uygulama baþlatýlýrken hata oluþtu: 'FingerprintController' object has no attribute 'export_profile'
+2025-08-29 20:03:32,443 - ERROR - Uygulama baþlatýlýrken hata oluþtu: 'FingerprintController' object has no attribute 'export_profile'
+2025-08-29 20:03:32,443 - ERROR - Uygulama baþlatýlýrken hata oluþtu: 'FingerprintController' object has no attribute 'export_profile'

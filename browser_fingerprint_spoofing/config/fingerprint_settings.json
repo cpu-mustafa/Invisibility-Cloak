@@ -1,0 +1,73 @@
+{
+    "profiles": {
+        "default": {
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
+            "platform": "Win32",
+            "vendor": "Google Inc.",
+            "languages": [
+                "tr-TR",
+                "tr",
+                "en-US",
+                "en"
+            ],
+            "do_not_track": true,
+            "hardware_concurrency": 8,
+            "device_memory": 2.0,
+            "screen_resolution": {
+                "width": 2560,
+                "height": 1440
+            },
+            "color_depth": 32,
+            "timezone_offset": 642,
+            "session_storage": true,
+            "local_storage": false,
+            "indexed_db": true,
+            "cookies": false,
+            "canvas_fingerprint": true,
+            "audio_fingerprint": true,
+            "webgl_fingerprint": true,
+            "fonts": [
+                "Arial",
+                "Courier New",
+                "Georgia",
+                "Times New Roman",
+                "Verdana"
+            ]
+        },
+        "privacy": {
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0",
+            "platform": "Win32",
+            "vendor": "",
+            "languages": [
+                "en-US",
+                "en"
+            ],
+            "do_not_track": true,
+            "hardware_concurrency": 2,
+            "device_memory": 4.0,
+            "screen_resolution": {
+                "width": 1366,
+                "height": 1440
+            },
+            "color_depth": 24,
+            "timezone_offset": 0,
+            "session_storage": false,
+            "local_storage": false,
+            "indexed_db": false,
+            "cookies": false,
+            "canvas_fingerprint": false,
+            "audio_fingerprint": false,
+            "webgl_fingerprint": false,
+            "fonts": [
+                "Arial",
+                "Times New Roman"
+            ]
+        }
+    },
+    "settings": {
+        "active_profile": "privacy",
+        "auto_change_interval": 0,
+        "startup_profile": "privacy",
+        "theme": "light"
+    }
+}

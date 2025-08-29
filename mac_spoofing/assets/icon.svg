@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Arka plan daire -->
+  <circle cx="256" cy="256" r="240" fill="#2c3e50" />
+  
+  <!-- Ağ bağlantısı simgesi -->
+  <g fill="#ecf0f1">
+    <!-- Merkez bilgisayar -->
+    <rect x="216" y="216" width="80" height="80" rx="8" ry="8" />
+    
+    <!-- Ağ bağlantıları -->
+    <circle cx="136" cy="136" r="30" />
+    <circle cx="376" cy="136" r="30" />
+    <circle cx="136" cy="376" r="30" />
+    <circle cx="376" cy="376" r="30" />
+    
+    <!-- Bağlantı çizgileri -->
+    <line x1="166" y1="166" x2="216" y2="216" stroke="#ecf0f1" stroke-width="10" />
+    <line x1="346" y1="166" x2="296" y2="216" stroke="#ecf0f1" stroke-width="10" />
+    <line x1="166" y1="346" x2="216" y2="296" stroke="#ecf0f1" stroke-width="10" />
+    <line x1="346" y1="346" x2="296" y2="296" stroke="#ecf0f1" stroke-width="10" />
+  </g>
+  
+  <!-- MAC adresi metni -->
+  <text x="256" y="330" font-family="Courier New, monospace" font-size="24" font-weight="bold" fill="#3498db" text-anchor="middle">XX:XX:XX</text>
+  
+  <!-- Değiştirme simgesi -->
+  <g transform="translate(256, 170) scale(0.8)">
+    <circle cx="0" cy="0" r="40" fill="#e74c3c" />
+    <path d="M-20,-10 L20,-10 M-20,10 L20,10 M10,-20 L20,-10 L10,0 M10,0 L20,10 L10,20" stroke="#ecf0f1" stroke-width="6" fill="none" />
+  </g>
+</svg>

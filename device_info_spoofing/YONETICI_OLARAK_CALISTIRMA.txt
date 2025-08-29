@@ -1,0 +1,36 @@
+# CİHAZ BİLGİSİ GİZLEYİCİ UYGULAMASINI YÖNETİCİ OLARAK ÇALIŞTIRMA
+
+Bu uygulama, Windows Registry'de gerçek değişiklikler yapabilmek için yönetici haklarıyla çalıştırılmalıdır. Aşağıdaki yöntemlerden birini kullanarak uygulamayı yönetici olarak çalıştırabilirsiniz.
+
+## 1. Batch Dosyası ile Çalıştırma
+
+`run_as_admin.bat` dosyasına çift tıklayarak uygulamayı yönetici olarak çalıştırabilirsiniz. Bu dosya otomatik olarak yönetici hakları isteyecek ve onay vermeniz durumunda uygulamayı başlatacaktır.
+
+## 2. PowerShell Scripti ile Çalıştırma
+
+`run_as_admin.ps1` dosyasını kullanarak da uygulamayı yönetici olarak çalıştırabilirsiniz. Bu dosyayı çalıştırmak için:
+
+1. PowerShell'i açın
+2. Aşağıdaki komutu yazın (tırnak işaretleri dahil):
+   ```
+   powershell -ExecutionPolicy Bypass -File "C:\yol\run_as_admin.ps1"
+   ```
+   (Yukarıdaki yolu, dosyanın gerçek konumuna göre değiştirin)
+
+## 3. Manuel Olarak Yönetici Haklarıyla Çalıştırma
+
+Uygulamayı manuel olarak yönetici haklarıyla çalıştırmak için:
+
+1. Komut İstemi (CMD) veya PowerShell'i yönetici olarak açın
+2. Uygulama dizinine gidin
+3. Aşağıdaki komutu çalıştırın:
+   ```
+   python main.py
+   ```
+
+## Önemli Notlar
+
+- Uygulama yönetici haklarıyla çalıştırılmadığında, gerçek sistem değişiklikleri yapılamaz ve sınırlı modda çalışır.
+- Sistem değişiklikleri kalıcıdır ve bazı durumlarda bilgisayarınızın yeniden başlatılması gerekebilir.
+- Değişikliklerin tam olarak etkinleşmesi için bilgisayarınızı yeniden başlatmanız önerilir.
+- Uygulamayı kullanmadan önce sistem yedeği almanız tavsiye edilir.

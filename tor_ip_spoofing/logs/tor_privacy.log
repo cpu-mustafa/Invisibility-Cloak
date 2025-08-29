@@ -1,0 +1,739 @@
+2025-08-29 17:33:49,335 - INFO - Açýk tema uygulandý
+2025-08-29 17:33:49,344 - INFO - modules/tor_data dizini oluþturuldu
+2025-08-29 17:34:09,003 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:34:09,208 - INFO - Aug 29 17:34:09.207 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:34:09,211 - INFO - Aug 29 17:34:09.207 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:34:09,234 - INFO - Aug 29 17:34:09.234 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:34:09,255 - INFO - Aug 29 17:34:09.234 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:34:09,261 - INFO - Aug 29 17:34:09.234 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:34:09,271 - INFO - Aug 29 17:34:09.238 [notice] Opening Socks listener on 127.0.0.1:9060
+2025-08-29 17:34:09,285 - INFO - Aug 29 17:34:09.238 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9060
+2025-08-29 17:34:09,289 - INFO - Aug 29 17:34:09.238 [notice] Opening Control listener on 127.0.0.1:9061
+2025-08-29 17:34:09,297 - INFO - Aug 29 17:34:09.239 [notice] Opened Control listener connection (ready) on 127.0.0.1:9061
+2025-08-29 17:34:09,298 - INFO - Aug 29 17:34:09.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 17:34:09,302 - INFO - Aug 29 17:34:09.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 17:34:09,303 - INFO - Aug 29 17:34:09.000 [notice] Starting with guard context "default"
+2025-08-29 17:34:10,307 - INFO - Aug 29 17:34:10.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 17:34:10,460 - INFO - Aug 29 17:34:10.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 17:34:10,598 - INFO - Aug 29 17:34:10.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 17:34:10,983 - INFO - Aug 29 17:34:10.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 17:34:10,985 - INFO - Aug 29 17:34:10.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+2025-08-29 17:34:11,112 - INFO - Aug 29 17:34:11.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+2025-08-29 17:34:11,243 - INFO - Aug 29 17:34:11.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+2025-08-29 17:34:13,330 - INFO - Aug 29 17:34:13.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+2025-08-29 17:34:13,461 - INFO - Aug 29 17:34:13.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+2025-08-29 17:34:14,920 - INFO - Aug 29 17:34:14.000 [notice] The current consensus has no exit nodes. Tor can only build internal paths, such as paths to onion services.
+2025-08-29 17:34:14,926 - INFO - Aug 29 17:34:14.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+2025-08-29 17:34:14,928 - INFO - Aug 29 17:34:14.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more microdescriptors: we have 0/8936, and can only build 0% of likely paths. (We have 0% of guards bw, 0% of midpoint bw, and 0% of end bw (no exits in consensus, using mid) = 0% of path bw.)
+2025-08-29 17:34:15,259 - INFO - Aug 29 17:34:15.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more microdescriptors: we have 0/8936, and can only build 0% of likely paths. (We have 0% of guards bw, 0% of midpoint bw, and 0% of end bw (no exits in consensus, using mid) = 0% of path bw.)
+2025-08-29 17:34:15,338 - INFO - Aug 29 17:34:15.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+2025-08-29 17:34:19,297 - INFO - Aug 29 17:34:19.000 [notice] The current consensus contains exit nodes. Tor can build exit and internal paths.
+2025-08-29 17:34:21,360 - INFO - Aug 29 17:34:21.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+2025-08-29 17:34:22,325 - INFO - Aug 29 17:34:22.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+2025-08-29 17:34:22,877 - INFO - Aug 29 17:34:22.000 [notice] Bootstrapped 68% (loading_descriptors): Loading relay descriptors
+2025-08-29 17:34:23,334 - INFO - Aug 29 17:34:23.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 17:34:23,769 - INFO - Aug 29 17:34:23.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 17:34:23,770 - INFO - Aug 29 17:34:23.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 17:34:24,196 - INFO - Aug 29 17:34:24.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 17:34:24,197 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 17:34:25,929 - INFO - Yeni IP tespit edildi: {"error": "Too Many Requests"}
+2025-08-29 17:34:37,619 - INFO - Koyu tema uygulandý
+2025-08-29 17:34:40,914 - INFO - Açýk tema uygulandý
+2025-08-29 17:34:41,924 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:34:41,953 - INFO - Aug 29 17:34:41.952 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:34:41,964 - INFO - Aug 29 17:34:41.953 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:34:42,005 - INFO - Aug 29 17:34:41.997 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:34:42,007 - INFO - Aug 29 17:34:41.997 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:34:42,009 - INFO - Aug 29 17:34:41.997 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:34:42,011 - INFO - Aug 29 17:34:41.997 [notice] Opening Socks listener on 127.0.0.1:9060
+2025-08-29 17:34:42,013 - INFO - Aug 29 17:34:41.997 [warn] Could not bind to 127.0.0.1:9060: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:34:42,015 - INFO - Aug 29 17:34:41.997 [notice] Opening Control listener on 127.0.0.1:9061
+2025-08-29 17:34:42,019 - INFO - Aug 29 17:34:41.997 [warn] Could not bind to 127.0.0.1:9061: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:34:42,021 - INFO - Aug 29 17:34:41.997 [warn] Failed to parse/validate config: Failed to bind one of the listener ports.
+2025-08-29 17:34:42,022 - INFO - Aug 29 17:34:41.997 [err] Reading config failed--see warnings above.
+2025-08-29 17:34:42,025 - ERROR - Baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:34:42,027 - ERROR - Tor baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+Traceback (most recent call last):
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\modules\tor_controller.py", line 220, in connect_to_tor
+    self.tor_process = stem.process.launch_tor_with_config(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tor_cmd=os.path.join(os.getcwd(), "modules", "tor.exe"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config=tor_config,
+        ^^^^^^^^^^^^^^^^^^
+        init_msg_handler=lambda line: self.log_message(line)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 285, in launch_tor_with_config
+    return launch_tor(tor_cmd, ['-f', '-'], None, completion_percent, init_msg_handler, timeout, take_ownership, close_output, stdin = config_str)
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 158, in launch_tor
+    raise OSError('Process terminated: %s' % last_problem)
+OSError: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:35:38,256 - INFO - Açýk tema uygulandý
+2025-08-29 17:35:40,459 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:35:40,567 - INFO - Aug 29 17:35:40.556 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:35:40,572 - INFO - Aug 29 17:35:40.556 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:35:40,596 - INFO - Aug 29 17:35:40.595 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:35:40,599 - INFO - Aug 29 17:35:40.595 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:35:40,601 - INFO - Aug 29 17:35:40.595 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:35:40,607 - INFO - Aug 29 17:35:40.599 [notice] Opening Socks listener on 127.0.0.1:9070
+2025-08-29 17:35:40,610 - INFO - Aug 29 17:35:40.599 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9070
+2025-08-29 17:35:40,611 - INFO - Aug 29 17:35:40.599 [notice] Opening Control listener on 127.0.0.1:9071
+2025-08-29 17:35:40,613 - INFO - Aug 29 17:35:40.599 [notice] Opened Control listener connection (ready) on 127.0.0.1:9071
+2025-08-29 17:35:40,615 - INFO - Aug 29 17:35:40.000 [warn] It looks like another Tor process is running with the same data directory.  Waiting 5 seconds to see if it goes away.
+2025-08-29 17:35:45,612 - INFO - Aug 29 17:35:45.000 [err] No, it's still there.  Exiting.
+2025-08-29 17:35:45,614 - INFO - Aug 29 17:35:45.000 [err] set_options: Bug: Acting on config options left us in a broken state. Dying. (on Tor 0.4.8.17 e41649c9a34f39f1)
+2025-08-29 17:35:45,617 - INFO - Aug 29 17:35:45.000 [err] Reading config failed--see warnings above.
+2025-08-29 17:35:45,620 - ERROR - Baðlantý hatasý: Process terminated: Acting on config options left us in a broken state. Dying. (on Tor 0.4.8.17 e41649c9a34f39f1)
+2025-08-29 17:35:45,631 - ERROR - Tor baðlantý hatasý: Process terminated: Acting on config options left us in a broken state. Dying. (on Tor 0.4.8.17 e41649c9a34f39f1)
+Traceback (most recent call last):
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\modules\tor_controller.py", line 220, in connect_to_tor
+    self.tor_process = stem.process.launch_tor_with_config(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tor_cmd=os.path.join(os.getcwd(), "modules", "tor.exe"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config=tor_config,
+        ^^^^^^^^^^^^^^^^^^
+        init_msg_handler=lambda line: self.log_message(line)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 285, in launch_tor_with_config
+    return launch_tor(tor_cmd, ['-f', '-'], None, completion_percent, init_msg_handler, timeout, take_ownership, close_output, stdin = config_str)
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 158, in launch_tor
+    raise OSError('Process terminated: %s' % last_problem)
+OSError: Process terminated: Acting on config options left us in a broken state. Dying. (on Tor 0.4.8.17 e41649c9a34f39f1)
+2025-08-29 17:36:01,116 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 17:36:03,547 - ERROR - Tor baðlantýsý yok, önce baðlanýn
+2025-08-29 17:36:49,918 - INFO - Açýk tema uygulandý
+2025-08-29 17:36:51,843 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:36:51,940 - INFO - Aug 29 17:36:51.936 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:36:51,942 - INFO - Aug 29 17:36:51.936 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:36:51,964 - INFO - Aug 29 17:36:51.961 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:36:51,967 - INFO - Aug 29 17:36:51.961 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:36:51,972 - INFO - Aug 29 17:36:51.961 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:36:51,974 - INFO - Aug 29 17:36:51.961 [notice] Opening Socks listener on 127.0.0.1:9070
+2025-08-29 17:36:51,975 - INFO - Aug 29 17:36:51.961 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9070
+2025-08-29 17:36:51,977 - INFO - Aug 29 17:36:51.961 [notice] Opening Control listener on 127.0.0.1:9071
+2025-08-29 17:36:51,978 - INFO - Aug 29 17:36:51.961 [notice] Opened Control listener connection (ready) on 127.0.0.1:9071
+2025-08-29 17:36:51,991 - INFO - Aug 29 17:36:51.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 17:36:51,995 - INFO - Aug 29 17:36:51.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 17:36:56,310 - INFO - Aug 29 17:36:56.000 [notice] Starting with guard context "default"
+2025-08-29 17:36:58,608 - INFO - Aug 29 17:36:58.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 17:36:58,804 - INFO - Aug 29 17:36:58.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 17:36:58,892 - INFO - Aug 29 17:36:58.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 17:36:59,072 - INFO - Aug 29 17:36:59.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 17:36:59,074 - INFO - Aug 29 17:36:59.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 17:36:59,075 - INFO - Aug 29 17:36:59.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 17:36:59,076 - INFO - Aug 29 17:36:59.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 17:36:59,377 - INFO - Aug 29 17:36:59.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 17:36:59,378 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 17:37:00,671 - INFO - Yeni IP tespit edildi: {"error": "Too Many Requests"}
+2025-08-29 17:37:00,755 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:37:00,797 - INFO - Aug 29 17:37:00.794 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:37:00,800 - INFO - Aug 29 17:37:00.794 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:37:00,833 - INFO - Aug 29 17:37:00.825 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:37:00,837 - INFO - Aug 29 17:37:00.834 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:37:00,839 - INFO - Aug 29 17:37:00.834 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:37:00,840 - INFO - Aug 29 17:37:00.836 [notice] Opening Socks listener on 127.0.0.1:9070
+2025-08-29 17:37:00,842 - INFO - Aug 29 17:37:00.836 [warn] Could not bind to 127.0.0.1:9070: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:37:00,844 - INFO - Aug 29 17:37:00.836 [notice] Opening Control listener on 127.0.0.1:9071
+2025-08-29 17:37:00,845 - INFO - Aug 29 17:37:00.836 [warn] Could not bind to 127.0.0.1:9071: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:37:00,847 - INFO - Aug 29 17:37:00.836 [warn] Failed to parse/validate config: Failed to bind one of the listener ports.
+2025-08-29 17:37:00,849 - INFO - Aug 29 17:37:00.836 [err] Reading config failed--see warnings above.
+2025-08-29 17:37:00,852 - ERROR - Baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:37:00,854 - ERROR - Tor baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+Traceback (most recent call last):
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\modules\tor_controller.py", line 220, in connect_to_tor
+    self.tor_process = stem.process.launch_tor_with_config(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tor_cmd=os.path.join(os.getcwd(), "modules", "tor.exe"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config=tor_config,
+        ^^^^^^^^^^^^^^^^^^
+        init_msg_handler=lambda line: self.log_message(line)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 285, in launch_tor_with_config
+    return launch_tor(tor_cmd, ['-f', '-'], None, completion_percent, init_msg_handler, timeout, take_ownership, close_output, stdin = config_str)
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 158, in launch_tor
+    raise OSError('Process terminated: %s' % last_problem)
+OSError: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:37:05,776 - INFO - Yeni IP tespit edildi: 192.42.116.212
+2025-08-29 17:38:22,460 - INFO - Açýk tema uygulandý
+2025-08-29 17:38:24,811 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:38:24,905 - INFO - Aug 29 17:38:24.897 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:38:24,908 - INFO - Aug 29 17:38:24.897 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:38:24,933 - INFO - Aug 29 17:38:24.932 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:38:24,937 - INFO - Aug 29 17:38:24.932 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:38:24,939 - INFO - Aug 29 17:38:24.932 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:38:24,942 - INFO - Aug 29 17:38:24.937 [notice] Opening Socks listener on 127.0.0.1:9080
+2025-08-29 17:38:24,943 - INFO - Aug 29 17:38:24.937 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9080
+2025-08-29 17:38:24,946 - INFO - Aug 29 17:38:24.937 [notice] Opening Control listener on 127.0.0.1:9081
+2025-08-29 17:38:24,950 - INFO - Aug 29 17:38:24.937 [notice] Opened Control listener connection (ready) on 127.0.0.1:9081
+2025-08-29 17:38:24,962 - INFO - Aug 29 17:38:24.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 17:38:24,966 - INFO - Aug 29 17:38:24.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 17:38:28,670 - INFO - Aug 29 17:38:28.000 [notice] Starting with guard context "default"
+2025-08-29 17:38:30,750 - INFO - Aug 29 17:38:30.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 17:38:31,124 - INFO - Aug 29 17:38:31.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 17:38:31,202 - INFO - Aug 29 17:38:31.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 17:38:31,391 - INFO - Aug 29 17:38:31.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 17:38:31,392 - INFO - Aug 29 17:38:31.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 17:38:31,394 - INFO - Aug 29 17:38:31.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 17:38:31,395 - INFO - Aug 29 17:38:31.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 17:38:31,636 - INFO - Aug 29 17:38:31.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 17:38:31,637 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 17:38:34,957 - INFO - Yeni IP tespit edildi: {"error": "Too Many Requests"}
+2025-08-29 17:38:54,834 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 59 saniye
+2025-08-29 17:38:54,850 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 56 saniye
+2025-08-29 17:38:54,859 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 55 saniye
+2025-08-29 17:38:54,867 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 53 saniye
+2025-08-29 17:38:54,875 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 51 saniye
+2025-08-29 17:38:54,882 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 48 saniye
+2025-08-29 17:38:54,891 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 46 saniye
+2025-08-29 17:38:54,899 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 43 saniye
+2025-08-29 17:38:54,907 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 40 saniye
+2025-08-29 17:38:54,915 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 37 saniye
+2025-08-29 17:38:54,922 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 33 saniye
+2025-08-29 17:38:54,931 - INFO - Otomatik deðiþtirme aralýðý güncellendi: 30 saniye
+2025-08-29 17:39:24,997 - INFO - Yeni Tor çýkýþ düðümüne geçildi
+2025-08-29 17:40:26,561 - INFO - Açýk tema uygulandý
+2025-08-29 17:40:28,387 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:40:28,551 - INFO - Aug 29 17:40:28.550 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:40:28,567 - INFO - Aug 29 17:40:28.550 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:40:28,606 - INFO - Aug 29 17:40:28.606 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:40:28,624 - INFO - Aug 29 17:40:28.606 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:40:28,632 - INFO - Aug 29 17:40:28.606 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:40:28,638 - INFO - Aug 29 17:40:28.611 [notice] Opening Socks listener on 127.0.0.1:9080
+2025-08-29 17:40:28,643 - INFO - Aug 29 17:40:28.611 [warn] Could not bind to 127.0.0.1:9080: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:40:28,645 - INFO - Aug 29 17:40:28.611 [notice] Opening Control listener on 127.0.0.1:9081
+2025-08-29 17:40:28,647 - INFO - Aug 29 17:40:28.611 [warn] Could not bind to 127.0.0.1:9081: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:40:28,655 - INFO - Aug 29 17:40:28.611 [warn] Failed to parse/validate config: Failed to bind one of the listener ports.
+2025-08-29 17:40:28,657 - INFO - Aug 29 17:40:28.611 [err] Reading config failed--see warnings above.
+2025-08-29 17:40:28,659 - ERROR - Baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:40:28,662 - ERROR - Tor baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+Traceback (most recent call last):
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\modules\tor_controller.py", line 220, in connect_to_tor
+    self.tor_process = stem.process.launch_tor_with_config(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tor_cmd=os.path.join(os.getcwd(), "modules", "tor.exe"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config=tor_config,
+        ^^^^^^^^^^^^^^^^^^
+        init_msg_handler=lambda line: self.log_message(line)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 285, in launch_tor_with_config
+    return launch_tor(tor_cmd, ['-f', '-'], None, completion_percent, init_msg_handler, timeout, take_ownership, close_output, stdin = config_str)
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 158, in launch_tor
+    raise OSError('Process terminated: %s' % last_problem)
+OSError: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:40:36,403 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:40:36,426 - INFO - Aug 29 17:40:36.426 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:40:36,429 - INFO - Aug 29 17:40:36.426 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:40:36,459 - INFO - Aug 29 17:40:36.455 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:40:36,460 - INFO - Aug 29 17:40:36.455 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:40:36,462 - INFO - Aug 29 17:40:36.455 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:40:36,464 - INFO - Aug 29 17:40:36.455 [notice] Opening Socks listener on 127.0.0.1:9080
+2025-08-29 17:40:36,471 - INFO - Aug 29 17:40:36.455 [warn] Could not bind to 127.0.0.1:9080: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:40:36,473 - INFO - Aug 29 17:40:36.455 [notice] Opening Control listener on 127.0.0.1:9081
+2025-08-29 17:40:36,475 - INFO - Aug 29 17:40:36.455 [warn] Could not bind to 127.0.0.1:9081: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:40:36,476 - INFO - Aug 29 17:40:36.455 [warn] Failed to parse/validate config: Failed to bind one of the listener ports.
+2025-08-29 17:40:36,478 - INFO - Aug 29 17:40:36.455 [err] Reading config failed--see warnings above.
+2025-08-29 17:40:36,479 - ERROR - Baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:40:36,481 - ERROR - Tor baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+Traceback (most recent call last):
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\modules\tor_controller.py", line 220, in connect_to_tor
+    self.tor_process = stem.process.launch_tor_with_config(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tor_cmd=os.path.join(os.getcwd(), "modules", "tor.exe"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config=tor_config,
+        ^^^^^^^^^^^^^^^^^^
+        init_msg_handler=lambda line: self.log_message(line)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 285, in launch_tor_with_config
+    return launch_tor(tor_cmd, ['-f', '-'], None, completion_percent, init_msg_handler, timeout, take_ownership, close_output, stdin = config_str)
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 158, in launch_tor
+    raise OSError('Process terminated: %s' % last_problem)
+OSError: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:41:27,201 - INFO - Açýk tema uygulandý
+2025-08-29 17:41:29,123 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:41:29,259 - INFO - Aug 29 17:41:29.255 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:41:29,264 - INFO - Aug 29 17:41:29.255 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:41:29,291 - INFO - Aug 29 17:41:29.290 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:41:29,300 - INFO - Aug 29 17:41:29.291 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:41:29,311 - INFO - Aug 29 17:41:29.291 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:41:29,319 - INFO - Aug 29 17:41:29.302 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 17:41:29,326 - INFO - Aug 29 17:41:29.302 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9090
+2025-08-29 17:41:29,344 - INFO - Aug 29 17:41:29.302 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 17:41:29,345 - INFO - Aug 29 17:41:29.302 [notice] Opened Control listener connection (ready) on 127.0.0.1:9091
+2025-08-29 17:41:29,348 - INFO - Aug 29 17:41:29.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 17:41:29,349 - INFO - Aug 29 17:41:29.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 17:41:33,132 - INFO - Aug 29 17:41:33.000 [notice] Starting with guard context "default"
+2025-08-29 17:41:35,214 - INFO - Aug 29 17:41:35.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 17:41:35,419 - INFO - Aug 29 17:41:35.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 17:41:35,529 - INFO - Aug 29 17:41:35.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 17:41:35,695 - INFO - Aug 29 17:41:35.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 17:41:35,696 - INFO - Aug 29 17:41:35.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 17:41:35,697 - INFO - Aug 29 17:41:35.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 17:41:35,698 - INFO - Aug 29 17:41:35.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 17:41:36,067 - INFO - Aug 29 17:41:36.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 17:41:36,069 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 17:41:38,313 - INFO - Yeni IP tespit edildi: 185.220.101.10
+2025-08-29 17:41:42,175 - INFO - Yeni IP tespit edildi: 78.142.18.219
+2025-08-29 17:43:42,834 - INFO - Açýk tema uygulandý
+2025-08-29 17:43:44,812 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:43:44,934 - INFO - Aug 29 17:43:44.924 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:43:44,937 - INFO - Aug 29 17:43:44.924 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:43:44,958 - INFO - Aug 29 17:43:44.957 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:43:44,962 - INFO - Aug 29 17:43:44.957 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:43:44,964 - INFO - Aug 29 17:43:44.957 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:43:44,967 - INFO - Aug 29 17:43:44.961 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 17:43:44,968 - INFO - Aug 29 17:43:44.961 [warn] Could not bind to 127.0.0.1:9090: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:43:44,970 - INFO - Aug 29 17:43:44.961 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 17:43:44,971 - INFO - Aug 29 17:43:44.961 [warn] Could not bind to 127.0.0.1:9091: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:43:44,973 - INFO - Aug 29 17:43:44.961 [warn] Failed to parse/validate config: Failed to bind one of the listener ports.
+2025-08-29 17:43:44,976 - INFO - Aug 29 17:43:44.961 [err] Reading config failed--see warnings above.
+2025-08-29 17:43:44,978 - ERROR - Baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:43:44,983 - ERROR - Tor baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+Traceback (most recent call last):
+  File "C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\modules\tor_controller.py", line 228, in connect_to_tor
+    self.tor_process = stem.process.launch_tor_with_config(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tor_cmd=os.path.join(os.getcwd(), "modules", "tor.exe"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config=tor_config,
+        ^^^^^^^^^^^^^^^^^^
+        init_msg_handler=lambda line: self.log_message(line)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 285, in launch_tor_with_config
+    return launch_tor(tor_cmd, ['-f', '-'], None, completion_percent, init_msg_handler, timeout, take_ownership, close_output, stdin = config_str)
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 158, in launch_tor
+    raise OSError('Process terminated: %s' % last_problem)
+OSError: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:45:35,176 - INFO - Açýk tema uygulandý
+2025-08-29 17:45:37,044 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:45:37,170 - INFO - Aug 29 17:45:37.165 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:45:37,173 - INFO - Aug 29 17:45:37.165 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:45:37,195 - INFO - Aug 29 17:45:37.195 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:45:37,200 - INFO - Aug 29 17:45:37.195 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:45:37,202 - INFO - Aug 29 17:45:37.195 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:45:37,204 - INFO - Aug 29 17:45:37.199 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 17:45:37,206 - INFO - Aug 29 17:45:37.199 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9090
+2025-08-29 17:45:37,207 - INFO - Aug 29 17:45:37.199 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 17:45:37,208 - INFO - Aug 29 17:45:37.200 [notice] Opened Control listener connection (ready) on 127.0.0.1:9091
+2025-08-29 17:45:37,233 - INFO - Aug 29 17:45:37.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 17:45:37,234 - INFO - Aug 29 17:45:37.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 17:45:40,900 - INFO - Aug 29 17:45:40.000 [notice] Starting with guard context "default"
+2025-08-29 17:45:42,996 - INFO - Aug 29 17:45:42.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 17:45:43,401 - INFO - Aug 29 17:45:43.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 17:45:43,494 - INFO - Aug 29 17:45:43.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 17:45:43,635 - INFO - Aug 29 17:45:43.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 17:45:43,636 - INFO - Aug 29 17:45:43.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 17:45:43,637 - INFO - Aug 29 17:45:43.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 17:45:43,638 - INFO - Aug 29 17:45:43.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 17:45:43,854 - INFO - Aug 29 17:45:43.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 17:45:43,855 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 17:45:45,306 - INFO - Yeni IP tespit edildi: 192.42.116.202
+2025-08-29 17:45:50,174 - INFO - Yeni IP tespit edildi: 178.20.55.182
+2025-08-29 17:45:56,013 - INFO - Yeni IP tespit edildi: 185.220.101.138
+2025-08-29 17:46:45,368 - INFO - Yeni Tor çýkýþ düðümüne geçildi
+2025-08-29 17:46:50,007 - INFO - Yeni IP tespit edildi: 192.42.116.212
+2025-08-29 17:47:00,834 - INFO - Koyu tema uygulandý
+2025-08-29 17:47:58,769 - INFO - Açýk tema uygulandý
+2025-08-29 17:57:07,302 - INFO - Açýk tema uygulandý
+2025-08-29 17:57:09,333 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:57:09,460 - INFO - Aug 29 17:57:09.453 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:57:09,463 - INFO - Aug 29 17:57:09.453 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:57:09,486 - INFO - Aug 29 17:57:09.485 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:57:09,495 - INFO - Aug 29 17:57:09.485 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:57:09,498 - INFO - Aug 29 17:57:09.485 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:57:09,501 - INFO - Aug 29 17:57:09.490 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 17:57:09,507 - INFO - Aug 29 17:57:09.490 [warn] Could not bind to 127.0.0.1:9090: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:57:09,509 - INFO - Aug 29 17:57:09.490 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 17:57:09,515 - INFO - Aug 29 17:57:09.490 [warn] Could not bind to 127.0.0.1:9091: Address already in use [WSAEADDRINUSE ]. Is Tor already running?
+2025-08-29 17:57:09,516 - INFO - Aug 29 17:57:09.490 [warn] Failed to parse/validate config: Failed to bind one of the listener ports.
+2025-08-29 17:57:09,518 - INFO - Aug 29 17:57:09.490 [err] Reading config failed--see warnings above.
+2025-08-29 17:57:09,525 - ERROR - Baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:57:09,533 - ERROR - Tor baðlantý hatasý: Process terminated: Failed to bind one of the listener ports.
+Traceback (most recent call last):
+  File "c:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\modules\tor_controller.py", line 228, in connect_to_tor
+    self.tor_process = stem.process.launch_tor_with_config(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tor_cmd=os.path.join(os.getcwd(), "modules", "tor.exe"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        config=tor_config,
+        ^^^^^^^^^^^^^^^^^^
+        init_msg_handler=lambda line: self.log_message(line)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 285, in launch_tor_with_config
+    return launch_tor(tor_cmd, ['-f', '-'], None, completion_percent, init_msg_handler, timeout, take_ownership, close_output, stdin = config_str)
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 158, in launch_tor
+    raise OSError('Process terminated: %s' % last_problem)
+OSError: Process terminated: Failed to bind one of the listener ports.
+2025-08-29 17:58:02,319 - INFO - Açýk tema uygulandý
+2025-08-29 17:58:03,972 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 17:58:04,095 - INFO - Aug 29 17:58:04.091 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 17:58:04,098 - INFO - Aug 29 17:58:04.091 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 17:58:04,120 - INFO - Aug 29 17:58:04.116 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:58:04,123 - INFO - Aug 29 17:58:04.116 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 17:58:04,125 - INFO - Aug 29 17:58:04.116 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 17:58:04,129 - INFO - Aug 29 17:58:04.124 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 17:58:04,130 - INFO - Aug 29 17:58:04.124 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9090
+2025-08-29 17:58:04,132 - INFO - Aug 29 17:58:04.124 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 17:58:04,133 - INFO - Aug 29 17:58:04.124 [notice] Opened Control listener connection (ready) on 127.0.0.1:9091
+2025-08-29 17:58:04,144 - INFO - Aug 29 17:58:04.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 17:58:04,146 - INFO - Aug 29 17:58:04.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 17:58:07,781 - INFO - Aug 29 17:58:07.000 [notice] Starting with guard context "default"
+2025-08-29 17:58:09,900 - INFO - Aug 29 17:58:09.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 17:58:10,105 - INFO - Aug 29 17:58:10.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 17:58:10,198 - INFO - Aug 29 17:58:10.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 17:58:10,366 - INFO - Aug 29 17:58:10.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 17:58:10,367 - INFO - Aug 29 17:58:10.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 17:58:10,368 - INFO - Aug 29 17:58:10.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 17:58:10,369 - INFO - Aug 29 17:58:10.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 17:58:10,670 - INFO - Aug 29 17:58:10.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 17:58:10,672 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 17:58:15,148 - INFO - Yeni IP tespit edildi: 185.220.101.16
+2025-08-29 17:58:28,164 - INFO - Tor baðlantýsý kapatýldý
+2025-08-29 18:00:20,220 - INFO - Açýk tema uygulandý
+2025-08-29 18:00:22,068 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 18:00:22,171 - INFO - Aug 29 18:00:22.163 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 18:00:22,175 - INFO - Aug 29 18:00:22.163 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 18:00:22,202 - INFO - Aug 29 18:00:22.202 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 18:00:22,207 - INFO - Aug 29 18:00:22.202 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 18:00:22,211 - INFO - Aug 29 18:00:22.202 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 18:00:22,213 - INFO - Aug 29 18:00:22.206 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 18:00:22,215 - INFO - Aug 29 18:00:22.206 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9090
+2025-08-29 18:00:22,217 - INFO - Aug 29 18:00:22.206 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 18:00:22,219 - INFO - Aug 29 18:00:22.206 [notice] Opened Control listener connection (ready) on 127.0.0.1:9091
+2025-08-29 18:00:22,237 - INFO - Aug 29 18:00:22.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 18:00:22,239 - INFO - Aug 29 18:00:22.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 18:00:25,989 - INFO - Aug 29 18:00:25.000 [notice] Starting with guard context "default"
+2025-08-29 18:00:28,160 - INFO - Aug 29 18:00:28.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 18:00:28,375 - INFO - Aug 29 18:00:28.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 18:00:28,464 - INFO - Aug 29 18:00:28.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 18:00:28,658 - INFO - Aug 29 18:00:28.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 18:00:28,659 - INFO - Aug 29 18:00:28.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 18:00:28,661 - INFO - Aug 29 18:00:28.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 18:00:28,662 - INFO - Aug 29 18:00:28.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 18:00:29,047 - INFO - Aug 29 18:00:29.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 18:00:29,048 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 18:00:30,313 - INFO - Yeni IP tespit edildi: 176.65.151.194
+2025-08-29 18:00:35,457 - INFO - Yeni IP tespit edildi: 185.220.101.9
+2025-08-29 18:06:19,316 - INFO - Açýk tema uygulandý
+2025-08-29 18:06:21,029 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 18:06:21,272 - INFO - Aug 29 18:06:21.272 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 18:06:21,287 - INFO - Aug 29 18:06:21.272 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 18:06:21,332 - INFO - Aug 29 18:06:21.323 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 18:06:21,337 - INFO - Aug 29 18:06:21.323 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 18:06:21,341 - INFO - Aug 29 18:06:21.323 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 18:06:21,352 - INFO - Aug 29 18:06:21.323 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 18:06:21,355 - INFO - Aug 29 18:06:21.323 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9090
+2025-08-29 18:06:21,379 - INFO - Aug 29 18:06:21.323 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 18:06:21,381 - INFO - Aug 29 18:06:21.323 [notice] Opened Control listener connection (ready) on 127.0.0.1:9091
+2025-08-29 18:06:21,382 - INFO - Aug 29 18:06:21.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 18:06:21,385 - INFO - Aug 29 18:06:21.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 18:06:21,386 - INFO - Aug 29 18:06:21.000 [notice] Starting with guard context "default"
+2025-08-29 18:06:22,392 - INFO - Aug 29 18:06:22.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 18:06:22,441 - INFO - Aug 29 18:06:22.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 18:06:22,486 - INFO - Aug 29 18:06:22.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 18:06:22,602 - INFO - Aug 29 18:06:22.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 18:06:22,617 - INFO - Aug 29 18:06:22.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+2025-08-29 18:06:22,639 - INFO - Aug 29 18:06:22.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+2025-08-29 18:06:22,683 - INFO - Aug 29 18:06:22.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+2025-08-29 18:06:24,527 - INFO - Aug 29 18:06:24.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+2025-08-29 18:06:24,573 - INFO - Aug 29 18:06:24.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+2025-08-29 18:06:26,302 - INFO - Aug 29 18:06:26.000 [notice] The current consensus has no exit nodes. Tor can only build internal paths, such as paths to onion services.
+2025-08-29 18:06:26,338 - INFO - Aug 29 18:06:26.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+2025-08-29 18:06:26,376 - INFO - Aug 29 18:06:26.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more microdescriptors: we have 0/8936, and can only build 0% of likely paths. (We have 0% of guards bw, 0% of midpoint bw, and 0% of end bw (no exits in consensus, using mid) = 0% of path bw.)
+2025-08-29 18:06:26,853 - INFO - Aug 29 18:06:26.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+2025-08-29 18:06:27,238 - INFO - Aug 29 18:06:27.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more microdescriptors: we have 0/8936, and can only build 0% of likely paths. (We have 0% of guards bw, 0% of midpoint bw, and 0% of end bw (no exits in consensus, using mid) = 0% of path bw.)
+2025-08-29 18:06:34,232 - INFO - Aug 29 18:06:34.000 [notice] The current consensus contains exit nodes. Tor can build exit and internal paths.
+2025-08-29 18:06:36,858 - INFO - Aug 29 18:06:36.000 [notice] Bootstrapped 55% (loading_descriptors): Loading relay descriptors
+2025-08-29 18:06:46,966 - INFO - Aug 29 18:06:46.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+2025-08-29 18:06:48,373 - INFO - Aug 29 18:06:48.000 [notice] Bootstrapped 69% (loading_descriptors): Loading relay descriptors
+2025-08-29 18:06:49,070 - INFO - Aug 29 18:06:49.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 18:06:49,340 - INFO - Aug 29 18:06:49.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 18:06:49,342 - INFO - Aug 29 18:06:49.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 18:06:49,764 - INFO - Aug 29 18:06:49.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 18:06:49,765 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 18:06:52,044 - INFO - Yeni IP tespit edildi: 109.70.100.67
+2025-08-29 18:06:55,937 - INFO - Yeni IP tespit edildi: 185.220.101.23
+2025-08-29 18:06:59,486 - INFO - Yeni Tor çýkýþ düðümüne geçildi
+2025-08-29 18:07:00,926 - INFO - Yeni IP tespit edildi: 193.189.100.206
+2025-08-29 18:07:03,216 - INFO - Yeni Tor çýkýþ düðümüne geçildi
+2025-08-29 18:07:05,752 - INFO - Yeni IP tespit edildi: 109.70.100.71
+2025-08-29 18:07:10,724 - INFO - Yeni IP tespit edildi: 185.220.100.254
+2025-08-29 18:07:52,080 - INFO - Yeni Tor çýkýþ düðümüne geçildi
+2025-08-29 18:07:55,843 - INFO - Yeni IP tespit edildi: 171.25.193.38
+2025-08-29 18:08:52,082 - INFO - Yeni Tor çýkýþ düðümüne geçildi
+2025-08-29 18:08:56,087 - INFO - Yeni IP tespit edildi: 185.40.4.38
+2025-08-29 18:08:58,454 - INFO - Yeni IP tespit edildi: 45.141.215.17
+2025-08-29 18:09:52,099 - INFO - Yeni Tor çýkýþ düðümüne geçildi
+2025-08-29 18:09:57,119 - INFO - Yeni IP tespit edildi: 94.72.104.135
+2025-08-29 18:09:58,283 - INFO - Yeni IP tespit edildi: 109.70.100.6
+2025-08-29 18:10:06,213 - INFO - Yeni IP tespit edildi: 185.220.100.249
+2025-08-29 18:10:11,099 - INFO - Yeni IP tespit edildi: 185.220.101.165
+2025-08-29 18:10:52,093 - INFO - Yeni Tor çýkýþ düðümüne geçildi
+2025-08-29 18:10:56,115 - INFO - Yeni IP tespit edildi: 45.84.107.76
+2025-08-29 18:10:56,126 - INFO - Tor baðlantýsý kapatýldý
+2025-08-29 18:18:11,588 - INFO - Açýk tema uygulandý
+2025-08-29 18:18:15,237 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 18:18:15,357 - INFO - Aug 29 18:18:15.343 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 18:18:15,364 - INFO - Aug 29 18:18:15.343 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 18:18:15,387 - INFO - Aug 29 18:18:15.387 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\tor_ip_spoofing\<default>. Is this what you wanted?
+2025-08-29 18:18:15,397 - INFO - Aug 29 18:18:15.387 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\tor_ip_spoofing\<default>. Is this what you wanted?
+2025-08-29 18:18:15,404 - INFO - Aug 29 18:18:15.387 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 18:18:15,412 - INFO - Aug 29 18:18:15.391 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 18:18:15,437 - INFO - Aug 29 18:18:15.392 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9090
+2025-08-29 18:18:15,438 - INFO - Aug 29 18:18:15.392 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 18:18:15,440 - INFO - Aug 29 18:18:15.392 [notice] Opened Control listener connection (ready) on 127.0.0.1:9091
+2025-08-29 18:18:15,472 - INFO - Aug 29 18:18:15.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 18:18:15,474 - INFO - Aug 29 18:18:15.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 18:18:19,041 - INFO - Aug 29 18:18:19.000 [notice] Starting with guard context "default"
+2025-08-29 18:18:21,436 - INFO - Aug 29 18:18:21.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 18:18:21,692 - INFO - Aug 29 18:18:21.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 18:18:21,785 - INFO - Aug 29 18:18:21.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 18:18:21,958 - INFO - Aug 29 18:18:21.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 18:18:21,959 - INFO - Aug 29 18:18:21.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 18:18:21,960 - INFO - Aug 29 18:18:21.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 18:18:21,961 - INFO - Aug 29 18:18:21.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 18:18:22,198 - INFO - Aug 29 18:18:22.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 18:18:22,199 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 18:18:24,126 - INFO - Yeni IP tespit edildi: 185.220.101.31
+2025-08-29 18:18:28,364 - INFO - Yeni IP tespit edildi: 185.220.101.102
+2025-08-29 18:18:58,285 - INFO - Tor baðlantýsý kapatýldý
+2025-08-29 18:18:59,916 - INFO - Gizlilik ayarý güncellendi: use_system_proxy = True
+2025-08-29 18:18:59,917 - ERROR - Tor baðlantýsý yok, önce baðlanýn
+2025-08-29 18:18:59,919 - INFO - Gizlilik ayarý güncellendi: use_system_proxy = False
+2025-08-29 18:18:59,920 - ERROR - Tor baðlantýsý yok, önce baðlanýn
+2025-08-29 18:19:03,493 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 18:19:03,525 - INFO - Aug 29 18:19:03.524 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 18:19:03,534 - INFO - Aug 29 18:19:03.524 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 18:19:03,565 - INFO - Aug 29 18:19:03.564 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\tor_ip_spoofing\<default>. Is this what you wanted?
+2025-08-29 18:19:03,568 - INFO - Aug 29 18:19:03.564 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\tor_ip_spoofing\<default>. Is this what you wanted?
+2025-08-29 18:19:03,571 - INFO - Aug 29 18:19:03.564 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 18:19:03,575 - INFO - Aug 29 18:19:03.569 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 18:19:03,577 - INFO - Aug 29 18:19:03.569 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9090
+2025-08-29 18:19:03,578 - INFO - Aug 29 18:19:03.569 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 18:19:03,580 - INFO - Aug 29 18:19:03.569 [notice] Opened Control listener connection (ready) on 127.0.0.1:9091
+2025-08-29 18:19:03,597 - INFO - Aug 29 18:19:03.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 18:19:03,599 - INFO - Aug 29 18:19:03.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 18:19:07,317 - INFO - Aug 29 18:19:07.000 [notice] Starting with guard context "default"
+2025-08-29 18:19:09,421 - INFO - Aug 29 18:19:09.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 18:19:09,654 - INFO - Aug 29 18:19:09.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 18:19:09,743 - INFO - Aug 29 18:19:09.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 18:19:09,924 - INFO - Aug 29 18:19:09.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 18:19:09,926 - INFO - Aug 29 18:19:09.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 18:19:09,927 - INFO - Aug 29 18:19:09.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 18:19:09,928 - INFO - Aug 29 18:19:09.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 18:19:10,214 - INFO - Aug 29 18:19:10.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 18:19:10,215 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 18:19:12,043 - INFO - Yeni IP tespit edildi: 45.84.107.222
+2025-08-29 18:19:13,604 - INFO - Gizlilik ayarý güncellendi: use_system_proxy = True
+2025-08-29 18:19:13,659 - INFO - Sistem genelinde proxy ayarlarý etkinleþtirildi
+2025-08-29 18:20:12,072 - INFO - Yeni Tor çýkýþ düðümüne geçildi
+2025-08-29 18:20:16,954 - INFO - Yeni IP tespit edildi: 185.100.87.192
+2025-08-29 18:21:05,085 - INFO - Tor baðlantýsý kapatýldý
+2025-08-29 18:21:05,087 - INFO - Gizlilik ayarý güncellendi: use_system_proxy = False
+2025-08-29 18:21:05,088 - ERROR - Tor baðlantýsý yok, önce baðlanýn
+2025-08-29 18:25:07,187 - INFO - Açýk tema uygulandý
+2025-08-29 18:25:10,257 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 18:25:16,054 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 18:31:21,631 - INFO - Açýk tema uygulandý
+2025-08-29 18:31:38,986 - INFO - Gizlilik seviyesi deðiþtirildi: CUSTOM
+2025-08-29 18:31:43,522 - INFO - Gizlilik seviyesi deðiþtirildi: LOW
+2025-08-29 18:31:43,524 - INFO - Otomatik IP deðiþtirme devre dýþý býrakýldý
+2025-08-29 18:31:43,527 - INFO - Gizlilik ayarý güncellendi: clear_cookies = False
+2025-08-29 18:31:43,532 - INFO - Gizlilik ayarý güncellendi: block_scripts = False
+2025-08-29 18:31:48,667 - INFO - Gizlilik seviyesi deðiþtirildi: MEDIUM
+2025-08-29 18:31:48,667 - INFO - Otomatik IP deðiþtirme devre dýþý býrakýldý
+2025-08-29 18:31:48,669 - INFO - Gizlilik ayarý güncellendi: clear_cookies = True
+2025-08-29 18:31:48,672 - INFO - Gizlilik ayarý güncellendi: block_scripts = True
+2025-08-29 18:31:52,122 - INFO - Gizlilik seviyesi deðiþtirildi: HIGH
+2025-08-29 18:31:52,124 - INFO - Gizlilik ayarý güncellendi: use_bridges = True
+2025-08-29 18:32:04,009 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 18:32:04,209 - INFO - Aug 29 18:32:04.208 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 18:32:04,213 - INFO - Aug 29 18:32:04.208 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 18:32:04,239 - INFO - Aug 29 18:32:04.238 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 18:32:04,241 - INFO - Aug 29 18:32:04.238 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 18:32:04,242 - INFO - Aug 29 18:32:04.239 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 18:32:04,246 - INFO - Aug 29 18:32:04.244 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 18:32:04,249 - INFO - Aug 29 18:32:04.245 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9090
+2025-08-29 18:32:04,252 - INFO - Aug 29 18:32:04.245 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 18:32:04,254 - INFO - Aug 29 18:32:04.245 [notice] Opened Control listener connection (ready) on 127.0.0.1:9091
+2025-08-29 18:32:04,260 - INFO - Aug 29 18:32:04.000 [warn] CreateProcessA() failed: <unformattable error>
+2025-08-29 18:32:04,263 - INFO - Aug 29 18:32:04.000 [warn] Managed proxy "PluggableTransports\obfs4proxy" process terminated with status code 0
+2025-08-29 18:32:04,264 - INFO - Aug 29 18:32:04.000 [err] tor_assertion_failed_: Bug: transports.c:520: proxy_prepare_for_restart: Assertion mp->conf_state == PT_PROTO_COMPLETED failed; aborting. (on Tor 0.4.8.17 e41649c9a34f39f1)
+2025-08-29 18:32:04,271 - INFO - Aug 29 18:32:04.000 [err] Bug: Tor 0.4.8.17 (git-e41649c9a34f39f1): Assertion mp->conf_state == PT_PROTO_COMPLETED failed in proxy_prepare_for_restart at transports.c:520: . (Stack trace not available) (on Tor 0.4.8.17 e41649c9a34f39f1)
+2025-08-29 18:32:06,205 - ERROR - Baðlantý hatasý: Process terminated: . (Stack trace not available) (on Tor 0.4.8.17 e41649c9a34f39f1)
+2025-08-29 18:32:06,208 - ERROR - Tor baðlantý hatasý: Process terminated: . (Stack trace not available) (on Tor 0.4.8.17 e41649c9a34f39f1)
+Traceback (most recent call last):
+  File "c:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\tor_ip_spoofing\modules\tor_controller.py", line 249, in connect_to_tor
+    self.tor_process = stem.process.launch_tor_with_config(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tor_cmd=tor_exe_path,
+        ^^^^^^^^^^^^^^^^^^^^^
+        config=tor_config,
+        ^^^^^^^^^^^^^^^^^^
+        init_msg_handler=lambda line: self.log_message(line)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 285, in launch_tor_with_config
+    return launch_tor(tor_cmd, ['-f', '-'], None, completion_percent, init_msg_handler, timeout, take_ownership, close_output, stdin = config_str)
+  File "C:\Users\gsmus\AppData\Roaming\Python\Python313\site-packages\stem\process.py", line 158, in launch_tor
+    raise OSError('Process terminated: %s' % last_problem)
+OSError: Process terminated: . (Stack trace not available) (on Tor 0.4.8.17 e41649c9a34f39f1)
+2025-08-29 19:34:52,963 - INFO - Açýk tema uygulandý
+2025-08-29 19:35:12,557 - INFO - Gizlilik seviyesi deðiþtirildi: LOW
+2025-08-29 19:35:12,558 - INFO - Otomatik IP deðiþtirme devre dýþý býrakýldý
+2025-08-29 19:35:12,559 - INFO - Gizlilik ayarý güncellendi: clear_cookies = False
+2025-08-29 19:35:12,561 - INFO - Gizlilik ayarý güncellendi: block_scripts = False
+2025-08-29 19:35:12,563 - INFO - Gizlilik ayarý güncellendi: use_bridges = False
+2025-08-29 19:35:17,075 - INFO - Gizlilik seviyesi deðiþtirildi: MEDIUM
+2025-08-29 19:35:17,076 - INFO - Otomatik IP deðiþtirme devre dýþý býrakýldý
+2025-08-29 19:35:17,078 - INFO - Gizlilik ayarý güncellendi: clear_cookies = True
+2025-08-29 19:35:17,080 - INFO - Gizlilik ayarý güncellendi: block_scripts = True
+2025-08-29 19:35:19,460 - INFO - Gizlilik seviyesi deðiþtirildi: LOW
+2025-08-29 19:35:19,461 - INFO - Otomatik IP deðiþtirme devre dýþý býrakýldý
+2025-08-29 19:35:19,463 - INFO - Gizlilik ayarý güncellendi: clear_cookies = False
+2025-08-29 19:35:19,464 - INFO - Gizlilik ayarý güncellendi: block_scripts = False
+2025-08-29 19:36:59,092 - INFO - Açýk tema uygulandý
+2025-08-29 19:37:13,279 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 19:37:18,065 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 19:37:19,261 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 19:37:28,345 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 19:38:04,013 - INFO - Açýk tema uygulandý
+2025-08-29 19:38:05,819 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 19:38:06,007 - INFO - Aug 29 19:38:06.006 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 19:38:06,009 - INFO - Aug 29 19:38:06.006 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 19:38:06,035 - INFO - Aug 29 19:38:06.035 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 19:38:06,038 - INFO - Aug 29 19:38:06.035 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 19:38:06,039 - INFO - Aug 29 19:38:06.035 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 19:38:06,042 - INFO - Aug 29 19:38:06.041 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 19:38:06,043 - INFO - Aug 29 19:38:06.042 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9090
+2025-08-29 19:38:06,047 - INFO - Aug 29 19:38:06.042 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 19:38:06,050 - INFO - Aug 29 19:38:06.042 [notice] Opened Control listener connection (ready) on 127.0.0.1:9091
+2025-08-29 19:38:06,076 - INFO - Aug 29 19:38:06.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 19:38:06,079 - INFO - Aug 29 19:38:06.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 19:38:10,270 - INFO - Aug 29 19:38:10.000 [notice] Starting with guard context "default"
+2025-08-29 19:38:12,497 - INFO - Aug 29 19:38:12.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 19:38:12,716 - INFO - Aug 29 19:38:12.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 19:38:12,768 - INFO - Aug 29 19:38:12.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 19:38:12,894 - INFO - Aug 29 19:38:12.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 19:38:12,895 - INFO - Aug 29 19:38:12.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 19:38:12,896 - INFO - Aug 29 19:38:12.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 19:38:12,897 - INFO - Aug 29 19:38:12.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 19:38:16,907 - INFO - Aug 29 19:38:16.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 19:38:16,909 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 19:38:18,109 - INFO - Yeni IP tespit edildi: 185.220.101.144
+2025-08-29 19:38:23,184 - INFO - Yeni IP tespit edildi: 88.151.192.2
+2025-08-29 19:38:40,610 - INFO - Gizlilik ayarý güncellendi: use_system_proxy = True
+2025-08-29 19:38:40,670 - INFO - Sistem genelinde proxy ayarlarý etkinleþtirildi
+2025-08-29 19:38:48,379 - INFO - Yeni IP tespit edildi: 45.84.107.55
+2025-08-29 19:39:20,044 - INFO - Tor baðlantýsý kapatýldý
+2025-08-29 19:39:20,046 - INFO - Gizlilik ayarý güncellendi: use_system_proxy = False
+2025-08-29 19:39:20,047 - ERROR - Tor baðlantýsý yok, önce baðlanýn
+2025-08-29 19:39:25,264 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 19:39:25,493 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 19:45:03,192 - INFO - Açýk tema uygulandý
+2025-08-29 19:45:06,485 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 19:45:06,654 - INFO - Aug 29 19:45:06.651 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 19:45:06,659 - INFO - Aug 29 19:45:06.651 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 19:45:06,687 - INFO - Aug 29 19:45:06.685 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\tor_ip_spoofing\<default>. Is this what you wanted?
+2025-08-29 19:45:06,690 - INFO - Aug 29 19:45:06.685 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\tor_ip_spoofing\<default>. Is this what you wanted?
+2025-08-29 19:45:06,692 - INFO - Aug 29 19:45:06.685 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 19:45:06,696 - INFO - Aug 29 19:45:06.685 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 19:45:06,698 - INFO - Aug 29 19:45:06.685 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9090
+2025-08-29 19:45:06,699 - INFO - Aug 29 19:45:06.685 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 19:45:06,703 - INFO - Aug 29 19:45:06.685 [notice] Opened Control listener connection (ready) on 127.0.0.1:9091
+2025-08-29 19:45:06,726 - INFO - Aug 29 19:45:06.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 19:45:06,730 - INFO - Aug 29 19:45:06.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 19:45:10,568 - INFO - Aug 29 19:45:10.000 [notice] Starting with guard context "default"
+2025-08-29 19:45:13,159 - INFO - Aug 29 19:45:13.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 19:45:13,362 - INFO - Aug 29 19:45:13.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 19:45:13,468 - INFO - Aug 29 19:45:13.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 19:45:13,629 - INFO - Aug 29 19:45:13.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 19:45:13,630 - INFO - Aug 29 19:45:13.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 19:45:13,631 - INFO - Aug 29 19:45:13.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 19:45:13,632 - INFO - Aug 29 19:45:13.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 19:45:17,074 - INFO - Aug 29 19:45:17.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 19:45:17,075 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 19:45:18,812 - INFO - Yeni IP tespit edildi: 185.220.101.102
+2025-08-29 19:45:23,237 - INFO - Yeni IP tespit edildi: 192.42.116.193
+2025-08-29 19:45:40,323 - INFO - Gizlilik ayarý güncellendi: use_system_proxy = True
+2025-08-29 19:45:40,374 - INFO - Sistem genelinde proxy ayarlarý etkinleþtirildi
+2025-08-29 19:46:03,329 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý (Sonuç: 1)
+2025-08-29 19:46:03,332 - INFO - Gizlilik ayarý güncellendi: use_system_proxy = False
+2025-08-29 19:46:03,344 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý (Sonuç: 1)
+2025-08-29 19:46:03,345 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý
+2025-08-29 19:46:03,349 - INFO - Tor baðlantýsý kapatýldý
+2025-08-29 19:46:10,422 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý (Sonuç: 1)
+2025-08-29 19:46:10,423 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý
+2025-08-29 19:46:10,558 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 19:46:13,662 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý (Sonuç: 1)
+2025-08-29 19:46:13,663 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý
+2025-08-29 19:46:13,785 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 19:46:13,862 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý (Sonuç: 1)
+2025-08-29 19:46:13,863 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý
+2025-08-29 19:46:13,972 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 19:48:32,555 - INFO - Açýk tema uygulandý
+2025-08-29 19:48:43,868 - INFO - Tor'a baðlanýlýyor...
+2025-08-29 19:48:43,970 - INFO - Aug 29 19:48:43.968 [notice] Tor 0.4.8.17 (git-e41649c9a34f39f1) running on Windows 8 [or later] with Libevent 2.1.12-stable, OpenSSL 3.0.17, Zlib 1.3.1, Liblzma N/A, Libzstd N/A and Unknown N/A as libc.
+2025-08-29 19:48:43,973 - INFO - Aug 29 19:48:43.968 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://support.torproject.org/faq/staying-anonymous/
+2025-08-29 19:48:43,996 - INFO - Aug 29 19:48:43.992 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 19:48:43,998 - INFO - Aug 29 19:48:43.992 [warn] Path for GeoIPv6File (<default>) is relative and will resolve to C:\Users\gsmus\OneDrive\Resimler\Invisibilty-Cloak\<default>. Is this what you wanted?
+2025-08-29 19:48:43,999 - INFO - Aug 29 19:48:43.992 [warn] ControlPort is open, but no authentication method has been configured.  This means that any program on your computer can reconfigure your Tor.  That's bad!  You should upgrade your Tor controller as soon as possible.
+2025-08-29 19:48:44,003 - INFO - Aug 29 19:48:43.998 [notice] Opening Socks listener on 127.0.0.1:9090
+2025-08-29 19:48:44,005 - INFO - Aug 29 19:48:43.998 [notice] Opened Socks listener connection (ready) on 127.0.0.1:9090
+2025-08-29 19:48:44,009 - INFO - Aug 29 19:48:43.998 [notice] Opening Control listener on 127.0.0.1:9091
+2025-08-29 19:48:44,013 - INFO - Aug 29 19:48:43.998 [notice] Opened Control listener connection (ready) on 127.0.0.1:9091
+2025-08-29 19:48:44,038 - INFO - Aug 29 19:48:44.000 [notice] Set list of supported TLS groups to: P-256:X25519:P-224
+2025-08-29 19:48:44,041 - INFO - Aug 29 19:48:44.000 [notice] Bootstrapped 0% (starting): Starting
+2025-08-29 19:48:44,044 - INFO - Aug 29 19:48:44.000 [notice] Starting with guard context "default"
+2025-08-29 19:48:45,053 - INFO - Aug 29 19:48:45.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+2025-08-29 19:48:45,221 - INFO - Aug 29 19:48:45.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+2025-08-29 19:48:45,356 - INFO - Aug 29 19:48:45.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+2025-08-29 19:48:45,758 - INFO - Aug 29 19:48:45.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+2025-08-29 19:48:45,759 - INFO - Aug 29 19:48:45.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+2025-08-29 19:48:45,904 - INFO - Aug 29 19:48:45.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+2025-08-29 19:48:46,037 - INFO - Aug 29 19:48:46.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+2025-08-29 19:48:48,115 - INFO - Aug 29 19:48:48.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+2025-08-29 19:48:48,250 - INFO - Aug 29 19:48:48.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+2025-08-29 19:48:49,535 - INFO - Aug 29 19:48:49.000 [notice] The current consensus has no exit nodes. Tor can only build internal paths, such as paths to onion services.
+2025-08-29 19:48:49,541 - INFO - Aug 29 19:48:49.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+2025-08-29 19:48:49,542 - INFO - Aug 29 19:48:49.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more microdescriptors: we have 0/8934, and can only build 0% of likely paths. (We have 0% of guards bw, 0% of midpoint bw, and 0% of end bw (no exits in consensus, using mid) = 0% of path bw.)
+2025-08-29 19:48:49,826 - INFO - Aug 29 19:48:49.000 [notice] I learned some more directory information, but not enough to build a circuit: We need more microdescriptors: we have 0/8934, and can only build 0% of likely paths. (We have 0% of guards bw, 0% of midpoint bw, and 0% of end bw (no exits in consensus, using mid) = 0% of path bw.)
+2025-08-29 19:48:50,059 - INFO - Aug 29 19:48:50.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+2025-08-29 19:48:52,230 - INFO - Aug 29 19:48:52.000 [notice] The current consensus contains exit nodes. Tor can build exit and internal paths.
+2025-08-29 19:48:54,592 - INFO - Aug 29 19:48:54.000 [notice] Bootstrapped 56% (loading_descriptors): Loading relay descriptors
+2025-08-29 19:48:55,151 - INFO - Aug 29 19:48:55.000 [notice] Bootstrapped 61% (loading_descriptors): Loading relay descriptors
+2025-08-29 19:48:55,749 - INFO - Aug 29 19:48:55.000 [notice] Bootstrapped 68% (loading_descriptors): Loading relay descriptors
+2025-08-29 19:48:56,684 - INFO - Aug 29 19:48:56.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+2025-08-29 19:48:57,246 - INFO - Aug 29 19:48:57.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+2025-08-29 19:48:57,249 - INFO - Aug 29 19:48:57.000 [notice] Bootstrapped 95% (circuit_create): Establishing a Tor circuit
+2025-08-29 19:48:57,667 - INFO - Aug 29 19:48:57.000 [notice] Bootstrapped 100% (done): Done
+2025-08-29 19:48:57,668 - INFO - Tor'a baþarýyla baðlanýldý!
+2025-08-29 19:48:58,970 - INFO - Yeni IP tespit edildi: 192.42.116.199
+2025-08-29 19:49:03,782 - INFO - Yeni IP tespit edildi: 185.220.101.140
+2025-08-29 19:49:10,985 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý (Sonuç: 1)
+2025-08-29 19:49:10,986 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý
+2025-08-29 19:49:10,987 - INFO - Tor baðlantýsý kapatýldý
+2025-08-29 19:49:13,591 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý (Sonuç: 1)
+2025-08-29 19:49:13,592 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý
+2025-08-29 19:49:13,713 - INFO - Tor.exe zorla sonlandýrýldý
+2025-08-29 19:49:13,791 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý (Sonuç: 1)
+2025-08-29 19:49:13,792 - INFO - Sistem genelinde proxy ayarlarý devre dýþý býrakýldý
+2025-08-29 19:49:13,899 - INFO - Tor.exe zorla sonlandýrýldý

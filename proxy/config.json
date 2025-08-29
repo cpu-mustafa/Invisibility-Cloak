@@ -1,0 +1,8 @@
+{
+    "theme": "system",
+    "auto_test": true,
+    "fast_proxy_threshold": 5.0,
+    "auto_apply": true,
+    "startup_test": true,
+    "last_proxy": null
+}

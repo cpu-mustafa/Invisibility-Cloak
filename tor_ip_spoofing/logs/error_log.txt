@@ -1,0 +1,21 @@
+[2025-08-29 17:34:42] Bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 17:34:42] Tor bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 17:35:45] Bağlantı hatası: Process terminated: Acting on config options left us in a broken state. Dying. (on Tor 0.4.8.17 e41649c9a34f39f1)
+[2025-08-29 17:35:45] Tor bağlantı hatası: Process terminated: Acting on config options left us in a broken state. Dying. (on Tor 0.4.8.17 e41649c9a34f39f1)
+[2025-08-29 17:36:03] Tor bağlantısı yok, önce bağlanın
+[2025-08-29 17:37:00] Bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 17:37:00] Tor bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 17:40:28] Bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 17:40:28] Tor bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 17:40:36] Bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 17:40:36] Tor bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 17:43:44] Bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 17:43:44] Tor bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 17:57:09] Bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 17:57:09] Tor bağlantı hatası: Process terminated: Failed to bind one of the listener ports.
+[2025-08-29 18:18:59] Tor bağlantısı yok, önce bağlanın
+[2025-08-29 18:18:59] Tor bağlantısı yok, önce bağlanın
+[2025-08-29 18:21:05] Tor bağlantısı yok, önce bağlanın
+[2025-08-29 18:32:06] Bağlantı hatası: Process terminated: . (Stack trace not available) (on Tor 0.4.8.17 e41649c9a34f39f1)
+[2025-08-29 18:32:06] Tor bağlantı hatası: Process terminated: . (Stack trace not available) (on Tor 0.4.8.17 e41649c9a34f39f1)
+[2025-08-29 19:39:20] Tor bağlantısı yok, önce bağlanın
